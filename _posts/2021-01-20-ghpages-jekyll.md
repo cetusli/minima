@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "拥有自己的博客网站"
+title: "Have a blog site for yourself"
 author: Cetus Li
 date: 2021-01-20
 ---
