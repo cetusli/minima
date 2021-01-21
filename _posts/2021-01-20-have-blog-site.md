@@ -18,11 +18,11 @@ date: 2021-01-20
 
 GitHub Pages 是一个静态网站托管服务，它直接从 GitHub 上的仓库中获取 HTML、CSS 和 JavaScript 文件，通过背后集成的 Jekyll 引擎构建最终的网页，并在用户专有子域名`https://yourUserName.github.io/` 发布网站。[About GitHub Pages][github-pages]
 
-你的 `<yourUserName>.github.io` 仓库中的文件构建了你的网站，文件结构由 Jekyll 生成。了解各个文件的功能请见： [目录结构][file-structure]。
+`<yourUserName>.github.io` 仓库中的文件构建了你的网站，文件结构由 Jekyll 生成。了解各个文件的功能请见： [目录结构][file-structure]。
 
 -------------
 #### <b>题外话：</b>
-Github 的核心是一个 git 服务器，除了通过网页访问，还可以使用 git客户端 访问。
+Github 的核心是一个 git 服务器，除了通过网页访问，还可以使用 git 客户端(git client)访问。
 
 ##### <b>使用git客户端管理仓库：</b>
  - Linux 用户可在 bash 里使用 `git` 命令连接 Github 服务器管理仓库，编辑器自选
