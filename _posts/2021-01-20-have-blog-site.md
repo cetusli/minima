@@ -10,7 +10,7 @@ date: 2021-01-20
 3. 在自己的 Github 中，找到并打开上一步所 fork 的仓库，进入 `Settings` 选项
 4. 按 `<yourUserName>.github.io` 格式对仓库重命名，刷新网页
 5. 几分钟后，访问网址 https://yourUserName.github.io/ ，若有页面恭喜你拥有了自己的博客网站
-6. 修改 `config.yml` 和 `_posts/xxxx-xx-xx-yyyyyy.md`，将占位内容替换成自己的信息和博客内容
+6. 修改 `_config.yml` 和 `_posts/xxxx-xx-xx-yyyyyy.md`，将占位内容替换成自己的信息和博客内容
 7. 开始你的写博之旅吧
 
 你的 `<yourUserName>.github.io` 仓库中的文件构建了你的博客网站。
