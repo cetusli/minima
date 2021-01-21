@@ -22,7 +22,7 @@ GitHub Pages 是一个静态网站托管服务，它直接从 GitHub 上的仓�
 
 -------------
 #### <b>题外话：</b>
-Github 的核心是一个 git 服务器，除了通过网页访问，还可以使用 git 客户端(git client)访问。
+Github 的核心是一个 git 服务器，除了通过网页访问，还可以通过 git 客户端 (git client) 访问。
 
 ##### <b>使用git客户端管理仓库：</b>
  - Linux 用户可在 bash 里使用 `git` 命令连接 Github 服务器管理仓库，编辑器自选
