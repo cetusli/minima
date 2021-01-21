@@ -5,7 +5,7 @@ author: Cetus Li
 date: 2021-01-20
 ---
 #### <b>拥有自己博客网站的最简方案：</b>
-1. 注册 Github 账号，并在浏览器上登录 Github [官网链接][github]
+1. 注册 Github 账号，并在浏览器上登录 Github [官网][github]
 2. 选择网站[模板][gh-themes]，进入模板的仓库页面后，点击右上角 `Fork`
 3. 在自己的 Github 中，找到并打开上一步所 fork 的仓库，进入 `Settings` 选项
 4. 按 `<yourUserName>.github.io` 格式对仓库重命名，刷新网页
