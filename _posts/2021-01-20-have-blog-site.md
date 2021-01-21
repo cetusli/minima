@@ -16,7 +16,7 @@ date: 2021-01-20
 你的 `<yourUserName>.github.io` 仓库中的文件构建了你的博客网站。
  - 文件结构由 Jekyll 生成，了解各个文件功能请见 [目录结构][file-structure]
  - 为什么建立这样的仓库，就可以拥有自己的博客网站 ？
- <img src="/assets/img/ghpages.png" alt="github pages">
+ [<img src="/assets/img/ghpages.png" alt="github pages">][github-pages]
 
 Github 的核心是一个 git 服务器，除了通过网页访问，还可以使用 `git客户端` 访问。
 
@@ -51,3 +51,4 @@ Github 的核心是一个 git 服务器，除了通过网页访问，还可以�
 
 [gh-themes]: https://pages.github.com/themes/
 [file-structure]: https://www.jekyll.com.cn/docs/structure/
+[github-pages]: https://pages.github.com/
