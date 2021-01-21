@@ -13,12 +13,15 @@ date: 2021-01-20
 6. 修改 `_config.yml` 和 `_posts/xxxx-xx-xx-yyyyyy.md`，将占位内容替换成自己的信息和博客内容
 7. 开始你的写博之旅吧
 
-你的 `<yourUserName>.github.io` 仓库中的文件构建了你的博客网站。
- - 文件结构由 Jekyll 生成，了解各个文件功能请见 [目录结构][file-structure]
- - 为什么建立这样的仓库，就可以拥有自己的博客网站 ？
- [<img src="/assets/img/ghpages.png" alt="github pages">][github-pages]
+------------
 
-Github 的核心是一个 git 服务器，除了通过网页访问，还可以使用 `git客户端` 访问。
+<b>在 Github 建立仓库 <yourUserName>.github.io ，就可以拥有自己的博客网站 https://yourUserName.github.io/ 是 Github 一个子项目的功能，该子项目名为 `Github Pages` 。<b/>
+ - GitHub Pages 是一个静态网站托管服务，它直接从GitHub上的仓库中获取HTML、CSS和JavaScript文件，通过背后集成的 Jekyll 引擎构建最终的网页，并在用户专有子域名发布网站 [了解更多][github-pages]
+ - 你的 `<yourUserName>.github.io` 仓库中的文件构建了你的博客网站。文件结构由 Jekyll 生成，了解各个文件功能请见 [目录结构][file-structure]
+
+------------
+
+<b>Github 的核心是一个 git 服务器，除了通过网页访问，还可以使用 `git客户端` 访问。<b/>
 
 #### <b>使用git客户端管理仓库：</b>
  - Linux 用户可在 bash 里使用 `git` 命令连接 Github 服务器管理仓库，编辑器自选
@@ -51,4 +54,5 @@ Github 的核心是一个 git 服务器，除了通过网页访问，还可以�
 
 [gh-themes]: https://pages.github.com/themes/
 [file-structure]: https://www.jekyll.com.cn/docs/structure/
-[github-pages]: https://pages.github.com/
+[github-pages]: https://docs.github.com/en/github/working-with-github-pages/about-github-pages
+[ghpages]: https://pages.github.com/
