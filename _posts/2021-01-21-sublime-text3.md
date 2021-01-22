@@ -4,16 +4,15 @@ title: "Sublime Text3"
 author: Cetus Li
 date: 2021-01-21
 ---
-#### <b>Sublime Text3<b/>
 [下载][st-download]
 [中文官网][st-cn]
 
-##### <b>查找 ：<b/>
- - 工具 `goto anything` 
+#### <b>查找 ：<b/>
+ - `goto anything` 
  - 找文件
  - 找内容
 
-##### <b>选择 ：<b/>
+#### <b>选择 ：<b/>
  - 按住 `鼠标左键` 按行选择（地球人都知道）
  - 按住 `鼠标中键` 或 `鼠标右键+Shift` 按列选择
  - 按住 `Ctrl` 选择多个内容
