@@ -4,8 +4,19 @@ title: "Sublime Text3"
 author: Cetus Li
 date: 2021-01-21
 ---
-[下载][st-download]
-[中文官网][st-cn]
+#### <b>Sublime Text 是一个文本编辑器、一个先进的代码编辑器、一个现代版的 Vim<b/>   
+[下载][st-download]      [中文官网][st-cn]
+
+ - 主流编辑器，文本功能强大
+ - 支持 VIM 模式
+ - 无限期免费试用
+ - 体积较小，速度快，视窗干净
+ - Package Control 负责插件管理，简单易用
+ - 全屏免打扰、代码缩略图、业界最好的差异比较功能
+ - 内嵌 Python
+ - 集成 git
+
+
 
 #### <b>查找 ：<b/>
  - `goto anything` 
