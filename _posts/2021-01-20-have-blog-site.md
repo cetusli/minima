@@ -14,7 +14,7 @@ date: 2021-01-20
 7. 开始你的写博之旅吧
 
 #### <b>技术原理：</b>
-在 Github 建立仓库 `<yourUserName>.github.io` 就可以拥有自己的网站，是 Github 一个名为 Github Pages 的子项目的功能。
+在 Github 建立仓库 `<yourUserName>.github.io` 就可以拥有自己的网站，这就是 Github Pages 的功能，一个 Github 子项目。
 
 GitHub Pages 是一个静态网站托管服务，它直接从 GitHub 上的仓库中获取 HTML、CSS 和 JavaScript 文件，通过背后集成的 Jekyll 引擎构建最终的网页，并在用户专有子域名`https://yourUserName.github.io/` 发布网站。[About GitHub Pages][github-pages]
 
