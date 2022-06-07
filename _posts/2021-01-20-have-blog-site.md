@@ -24,12 +24,12 @@ GitHub Pages 是一个静态网站托管服务，它直接从 GitHub 上的仓�
 #### <b>题外话：</b>
 Github 的核心是一个 git 服务器，除了通过网页访问，还可以通过 git 客户端 (git client) 访问。
 
-##### <b>使用git客户端管理仓库：</b>
+##### <b>使用git客户端访问并管理仓库：</b>
  - Linux 用户可在 bash 里使用 `git` 命令连接 Github 服务器管理仓库，编辑器自选
  - Windows 用户推荐使用 Sublime Merge ，不推荐使用 Github Desktop，编辑器自选
  - 要求用户学习 git 用法 [Doc][git]
 
-##### <b>管理仓库的最简方法：</b>
+##### <b>不过管理仓库的最简单方法还是：</b>
  - 打开浏览器 -> 登录 Github -> 对仓库增删改查、对文件编辑预览
  - <b>All functions are fully covered on website</b>
 
