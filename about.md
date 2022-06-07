@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-This is about page.
+This is a private blog for recording and sharing.
