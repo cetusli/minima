@@ -27,9 +27,10 @@ date: 2022-06-09
 3. 分布图右侧尾巴过长峰值偏左叫做向右倾斜、正倾斜（skewed to the right），左边尾巴过长峰值偏右叫做向左倾斜、负倾斜（skewed to the left）。
 4. 有两个峰值的分布叫做双峰分布（bimodal distribution）。
 5. 关于分布的峰度（kurtosis）:与正太分布相比，中间高，两侧尾巴小的叫做尖峰分布（leptokurtic）；中间平缓，两侧尾巴大的叫做扁峰分布（platykurtic）。
-<br/><br/>
+
+<br/>
 <b>偏移和峰度的数据指标</b>
-- 偏移度（skew）计算1之Pearson法：`3（mean-median）/\sigma` ;计算2之最常用法：\Sigma((X-\mu)^3/\sigma^3)
+- 偏移度（skew）计算1之Pearson法：3（mean-median）/\sigma ;计算2之最常用法：\\Sigma((X-\mu)^3/\sigma^3)
 - 峰度（kurtosis）计算：\Sigma((X-\mu)^4/\sigma^4)-3 。（3是正态分布的峰度，减去3代表默认正态分布无峰度）
 
 ------
