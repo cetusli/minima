@@ -20,6 +20,8 @@ date: 2022-06-23
 - 绝对偏差（absolute deviation），每个数与中心数的距离的平均值。
 - 方差（variance），每个数与中心数的距离的平方的平均值。
 - 标准偏差（standard deviation）,也叫标准差，是方差的平方根。
+- 绝对偏差和（the sum of the absolute deviations），每个数与中心数的距离的加和。
+- 方差和（the sum of the squared deviations），每个数与中心数的距离的平方的加和。
 
 #### 分布的偏移度和峰度
 - 偏移度（skew），计算方法1之Pearson法：`3（mean-median）/标准差` ;计算方法2之最常用法：`((X-均值)^3/标准差^3)的连续加和`。
