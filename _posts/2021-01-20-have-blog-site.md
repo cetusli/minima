@@ -33,7 +33,7 @@ Github 的核心是一个 git 服务器，除了通过网页访问，还可以�
  - 打开浏览器 -> 登录 Github -> 对仓库增删改查、对文件编辑预览
  - <b>All functions are fully covered on website</b>
 
-[Github Flavored Markdown][gf]
+[Github Flavored Markdown][gfm]
 
 
 
@@ -54,4 +54,4 @@ Github 的核心是一个 git 服务器，除了通过网页访问，还可以�
 [file-structure]: https://www.jekyll.com.cn/docs/structure/
 [github-pages]: https://docs.github.com/en/github/working-with-github-pages/about-github-pages
 [git]: https://git-scm.com/doc
-[gf]: https://praveenpuglia.com/github_markdown_snippets/
+[gfm]: https://praveenpuglia.com/github_markdown_snippets/
