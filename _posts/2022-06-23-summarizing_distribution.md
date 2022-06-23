@@ -18,7 +18,7 @@ date: 2022-06-23
 - 全距（range），等于分布中最大数减去最小数。
 - 四分位间距（interquartile range, IQR），`IQR = 75th percentile - 25th percentile`，即第75百分位数减去第25百分位数。
 - 绝对偏差（absolute deviation），每个数与中心数的距离的平均值。
-- 方差（variance），每个数与中心数的距离的平方的平均值。
+- 方差（variance），也叫均方差，每个数与中心数的距离的平方的平均值。
 - 标准偏差（standard deviation）,也叫标准差，是方差的平方根。
 - 绝对偏差和（the sum of the absolute deviations），每个数与中心数的距离的加和。
 - 方差和（the sum of the squared deviations），每个数与中心数的距离的平方的加和。
@@ -26,6 +26,8 @@ date: 2022-06-23
 #### <b>分布的偏移度和峰度</b>
 - 偏移度（skew），计算方法1之Pearson法：`3（mean-median）/标准差` ;计算方法2之最常用法：`((X-均值)^3/标准差^3)的连续加和`。
 - 峰度（kurtosis），计算方法：`((X-均值)^4/标准差^4)的连续加和-3` （3是正态分布的峰度，减去3代表默认正态分布无峰度）。
+
+<br/>
 
 #### <b>方差和定律</b>
 两个独立变量相加或者相减得到的新变量的方差，都等于这两个独立变量各自的方差之和。`variance(X+or-Y)=variance(X)+variance(Y)`
