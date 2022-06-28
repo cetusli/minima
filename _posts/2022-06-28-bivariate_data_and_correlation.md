@@ -15,12 +15,15 @@ date: 2022-06-28
 -  皮尔逊相关系数不受线性变换影响。所以使用不同度量记录数据，不会影响相关系数。例如：一个地区的温度和桦树生长的年高度，无论数据是摄氏温度还是华氏温度，是厘米还是英尺，相关系数是不变的。
 
 #### 计算皮尔逊相关系数 **r**
+
 $$r = \frac{\Sigma xy}{\sqrt{\Sigma x^{2}\Sigma y^{2}}} $$
+
 x  和 y 分别是两个变量的值减去各自均值得到的新变量。
 该相关系数还有另一个计算公式：
+
 $$r = \frac{\Sigma xy-\frac{\Sigma x\Sigma y}{N} }{\sqrt{\Sigma x^{2}-\frac{(\Sigma x)^{2} }{N}  } \sqrt{\Sigma y^{2}-\frac{(\Sigma y)^{2} }{N}  }} $$
 
 #### 方差和定律II
 方差和定律I 针对两个独立变量，方差和定律II 针对两个相关变量。
-
+$$\sigma ^{2} _{X\pm Y} =\sigma ^{2} _{X} + \sigma ^{2} _{Y}\pm 2\rho \sigma _{X}\sigma _{Y}.$$
 
