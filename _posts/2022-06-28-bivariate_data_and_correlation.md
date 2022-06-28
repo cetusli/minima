@@ -27,7 +27,7 @@ $$r = \frac{\Sigma xy-\frac{\Sigma x\Sigma y}{N} }{\sqrt{\Sigma x^{2}-\frac{(\Si
 方差和定律I 针对两个独立变量:
 $$\sigma ^{2} _{X\pm Y} =\sigma ^{2} _{X} + \sigma ^{2} _{Y}$$
 
-方差和定律II 针对两个相关变量,其中 $\rho $是两个变量的相关系数:
+方差和定律II 针对两个相关变量,其中  **$\rho $** 是两个变量的相关系数:
 
 $$\sigma ^{2} _{X\pm Y} =\sigma ^{2} _{X} + \sigma ^{2} _{Y}\pm 2\rho \sigma _{X}\sigma _{Y}$$
 
