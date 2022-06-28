@@ -24,6 +24,10 @@ x  和 y 分别是两个变量的值减去各自均值得到的新变量。
 $$r = \frac{\Sigma xy-\frac{\Sigma x\Sigma y}{N} }{\sqrt{\Sigma x^{2}-\frac{(\Sigma x)^{2} }{N}  } \sqrt{\Sigma y^{2}-\frac{(\Sigma y)^{2} }{N}  }} $$
 
 #### 方差和定律II
-方差和定律I 针对两个独立变量，方差和定律II 针对两个相关变量。
+方差和定律I 针对两个独立变量:
+$$\sigma ^{2} _{X\pm Y} =\sigma ^{2} _{X} + \sigma ^{2} _{Y}$$
+
+方差和定律II 针对两个相关变量,其中 $\rho $是两个变量的相关系数:
+
 $$\sigma ^{2} _{X\pm Y} =\sigma ^{2} _{X} + \sigma ^{2} _{Y}\pm 2\rho \sigma _{X}\sigma _{Y}$$
 
