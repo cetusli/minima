@@ -29,5 +29,8 @@ $$\sigma ^{2} _{X\pm Y} =\sigma ^{2} _{X} + \sigma ^{2} _{Y}$$
 
 方差和定律II 针对两个相关变量,其中  **$\varrho $** 是两个变量的相关系数:
 
-$$\sigma ^{2} _{X\pm Y} =\sigma ^{2} _{X} + \sigma ^{2} _{Y}\pm 2\rho \sigma _{X}\sigma _{Y}$$
+$$总体： \sigma ^{2} _{X\pm Y} =\sigma ^{2} _{X} + \sigma ^{2} _{Y}\pm 2\rho \sigma _{X}\sigma _{Y}$$
 
+或者：
+
+ $$样本：  S ^{2} _{X\pm Y} =S ^{2} _{X} + S ^{2} _{Y}\pm 2r S _{X}S _{Y} $$
