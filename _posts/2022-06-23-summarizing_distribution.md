@@ -9,14 +9,14 @@ date: 2022-06-23
 <br/>常用的表征数据中心的度量：
 - 均值（mean），也叫算术平均值。
 - 中位数（median），数字按从小到大顺序排列，中间的数或者中间两数的均值。
-- 三均值（trimean），`（第25百分位数+第50百分位数*2+第75百分位数）/4`.
+- 三均值（trimean），`（第25百分位数+第50百分位数*2+第75百分位数）/4`，即 $Trimean = \frac{P25+2*P50+P75}{4} $.
 - 截尾均值（trimmed mean），A mean trimmed 20% is trimming 10% off the data from each tail.
 - 众数（mode），出现次数最多的数。
-- 几何均值（geometric mean），所有数相乘后再取1/N次幂。
+- 几何均值（geometric mean），所有数相乘后，再取1/N次幂也就是开 N 次方的意思。
 
 #### <b>分布的离散程度</b>
 - 全距（range），等于分布中最大数减去最小数。
-- 四分位间距（interquartile range, IQR），`IQR = 75th percentile - 25th percentile`，即第75百分位数减去第25百分位数。
+- 四分位间距（interquartile range, IQR），第75百分位数减去第25百分位数，即 $IQR = P75 - P25$。
 - 绝对偏差（absolute deviation），每个数与中心数的距离的平均值。
 - 方差（variance），也叫均方差，每个数与中心数的距离的平方的平均值。
 - 标准偏差（standard deviation）,也叫标准差，是方差的平方根。
@@ -24,14 +24,12 @@ date: 2022-06-23
 - 方差和（the sum of the squared deviations），每个数与中心数的距离的平方的加和。
 
 #### <b>分布的偏移度和峰度</b>
-- 偏移度（skew），计算方法1之Pearson法：`3（mean-median）/标准差` ;计算方法2之最常用法：`((X-均值)^3/标准差^3)的连续加和`。
-- 峰度（kurtosis），计算方法：`((X-均值)^4/标准差^4)的连续加和-3` （3是正态分布的峰度，减去3代表默认正态分布无峰度）。
+- 偏移度（skew），计算方法1之Pearson法：$\frac{3(Mean-Median)}{\sigma } $ ;计算方法2之最常用法：$\Sigma \frac{(X-\mu)^{3} }{\sigma ^{3} } $。
+- 峰度（kurtosis），计算方法：$\Sigma \frac{(X-\mu)^{4} }{\sigma ^{4} } -3$ ,3是正态分布的峰度，减去3代表默认正态分布无峰度。
 
-<br/>
-$\sqrt{3x-1}+(1+x)^2$
 
 #### <b>方差和定律</b>
-两个独立变量相加或者相减得到的新变量的方差，都等于这两个独立变量各自的方差之和。`variance(X+or-Y)=variance(X)+variance(Y)`
+两个独立变量相加或者相减得到的新变量的方差，都等于这两个独立变量各自的方差之和。$\sigma ^{2} _{X\pm Y} =\sigma ^{2} _{X} + \sigma ^{2} _{Y}.$
 
 #### <b>其他定律</b>
 1. 所有数全部加上同一个数，均值也会加上这个数，方差不会变，标准差不会变。
