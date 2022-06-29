@@ -16,21 +16,22 @@ date: 2022-06-28
 
 #### <b>计算皮尔逊相关系数 **r**</b>
 
-$$r = \frac{\Sigma xy}{\sqrt{\Sigma x^{2}\Sigma y^{2}}} $$
+$$ r = \frac{\Sigma xy}{\sqrt{\Sigma x^{2}\Sigma y^{2}}} $$
 
 x  和 y 分别是两个变量的值减去各自均值得到的新变量。
 该相关系数还有另一个计算公式：
 
-$$r = \frac{\Sigma xy-\frac{\Sigma x\Sigma y}{N} }{\sqrt{\Sigma x^{2}-\frac{(\Sigma x)^{2} }{N}  } \sqrt{\Sigma y^{2}-\frac{(\Sigma y)^{2} }{N}  }} $$
+$$ r = \frac{\Sigma xy-\frac{\Sigma x\Sigma y}{N} }{\sqrt{\Sigma x^{2}-\frac{(\Sigma x)^{2} }{N}  } \sqrt{\Sigma y^{2}-\frac{(\Sigma y)^{2} }{N}  }} $$
 
 #### <b>方差和定律II</b>
 方差和定律I 针对两个独立变量:
-$$\sigma ^{2} _{X\pm Y} =\sigma ^{2} _{X} + \sigma ^{2} _{Y}$$
+
+$$ \sigma ^{2} _{X\pm Y} =\sigma ^{2} _{X} + \sigma ^{2} _{Y} $$
 
 方差和定律II 针对两个相关变量,其中  **$\varrho $** 是两个变量的相关系数:
 
-$$总体： \sigma ^{2} _{X\pm Y} =\sigma ^{2} _{X} + \sigma ^{2} _{Y}\pm 2\rho \sigma _{X}\sigma _{Y}$$
+$$ 总体： \sigma ^{2} _{X\pm Y} =\sigma ^{2} _{X} + \sigma ^{2} _{Y}\pm 2\rho \sigma _{X}\sigma _{Y} $$
 
 或者：
 
- $$样本：  S ^{2} _{X\pm Y} =S ^{2} _{X} + S ^{2} _{Y}\pm 2r S _{X}S _{Y} $$
+ $$ 样本：  S ^{2} _{X\pm Y} =S ^{2} _{X} + S ^{2} _{Y}\pm 2r S _{X}S _{Y}  $$
