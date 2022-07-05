@@ -26,3 +26,16 @@ $$ P(A  or  B) = P(A) + P(B) - P(A  and  B) $$
  
 $$ P(A  and  B) = P(A) \times P(B|A) = P(B) \times P(A|B) $$
 
+- 独立事件的排列（顺序相关）
+
+$$ \sideset{_n}{_r}P = \frac{n!}{(n-r)!} $$
+
+- 独立事件的组合（顺序无关）
+
+$$ \sideset{_n}{_r}C = \frac{n!}{(n-r)!r!} $$
+
+
+
+
+
+
