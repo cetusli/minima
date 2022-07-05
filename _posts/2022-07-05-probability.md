@@ -16,13 +16,13 @@ date: 2022-07-05
 #### **基础特性**
 - 独立事件 A 和 B
 
-$$ P(A and B) = P(A) \times P(B) $$
+$$ P(A  and  B) = P(A) \times P(B) $$
 
 - 独立事件 A 或 B
 
-$$ P(A or B) = P(A) + P(B) - P(A and B) $$
+$$ P(A  or  B) = P(A) + P(B) - P(A  and  B) $$
 
 - 非独立事件 A 和 B
  
-$$ P(A and B) = P(A) \times P(B|A) = P(B) \times P(A|B) $$
+$$ P(A  and  B) = P(A) \times P(B|A) = P(B) \times P(A|B) $$
 
