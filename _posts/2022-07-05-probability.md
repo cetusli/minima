@@ -45,7 +45,7 @@ $$ \sideset{_n}{_r}C = \frac{n!}{(n-r)!r!} $$
 
 $$ P(x) = \frac{N!}{(N-x)!x!}\pi ^{x} (1-\pi )^{N-x} $$
 
-公式中的 $ \frac{N!}{(N-x)!x!} $ 也可以写成 $ \sideset{_N}{_x}C $ 或者 $ \sideset{}{_N^x}C  $ 或者 $ C(N,x) $
+公式中的 $\frac{N!}{(N-x)!x!}$ 也可以写成 $\sideset{_N}{_x}C$ 或者 $\sideset{}{_N^x}C$ 或者 $C(N,x)$
 
 
 
