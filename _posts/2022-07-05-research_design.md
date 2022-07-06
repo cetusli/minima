@@ -25,4 +25,5 @@ $$ y_{test}=y_{true}+y_{error}  $$
 
 $$r_{test,test}=\frac{\sigma ^2_{true}}{\sigma ^2_{test}} =\frac{\sigma ^2_{true}}{\sigma ^2_{true}+\sigma ^2_{error} } $$
 
+#### **标准差与标准误（Standard Deviation and Standard Error）**
 
