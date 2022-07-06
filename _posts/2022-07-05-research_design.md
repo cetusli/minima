@@ -21,4 +21,8 @@ $$ y_{test}=y_{true}+y_{error}  $$
 
 根据方差和定律，测量数据的方差为： $\sigma ^2_{test}=\sigma ^2_{true}+\sigma ^2_{error} $
 
-测量误差值越小，测量值越接近真实值，测量数据的信度越高。可以用平行试验之间的数据相关性 $r_{test,test} $ 大小指代信度大小。
+误差的方差越小，数据越稳定，数据的信度越高, $r_{test,test} $ 指代信度大小。。
+
+$$r_{test,test}=\frac{\sigma ^2_{true}}{\sigma ^2_{test}} =\frac{\sigma ^2_{true}}{\sigma ^2_{true}+\sigma ^2_{error} } $$
+
+
