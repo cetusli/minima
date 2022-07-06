@@ -26,4 +26,11 @@ $$ y_{test}=y_{true}+y_{error}  $$
 $$r_{test,test}=\frac{\sigma ^2_{true}}{\sigma ^2_{test}} =\frac{\sigma ^2_{true}}{\sigma ^2_{true}+\sigma ^2_{error} } $$
 
 #### **标准差与标准误（Standard Deviation and Standard Error）**
+- **标准差($\sigma_{true}$):** 用来衡量数值的稳定性；代表真实数据的离散程度；标准差越小真实数据越集中。
+- **标准误($\sigma_{error}$):** 用来衡量数值的可靠性（信度）；代表测量数据偏离真实数据的程度；标准误越小测量数据信度越高。
+- 如果样本量 n 逐渐增大，标准差趋于稳定值，而标准误趋于零。
+- 在样本量 n 不变的情况下，标准差和标准误是正相关的关系:
+
+$$S_{error}=S_{test}\sqrt{1-r_{test,test} }  $$
+
 
