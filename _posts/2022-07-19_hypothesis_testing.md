@@ -1,5 +1,5 @@
 ---
-layout: post
+outlay: post
 title: "Hypothesis Testing"
 author: Cetus Li
 date: 2022-07-19
