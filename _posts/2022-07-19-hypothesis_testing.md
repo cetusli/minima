@@ -26,7 +26,14 @@ date: 2022-07-19
 
 在科学研究中，双尾检验比单尾检验更为常见。
 
-
+#### **Studentized Range Distribution and Tukey HSD test**
+当需要比较多个条件相互之间的差异时，比如有三个实验条件就需要 6 种两两比较，比较结果中出现 I 型错误的概率会随着条件数目的增多而增大。（当条件数目为 12 时， I 型错误的概率已经达到 0.70）。为了控制  I 型错误的影响，使用 T 分布的变种分布 Studentized Range Distribution 来进行检验，这种检验叫做 Tukey Honestly Significant Difference Test 或者 Tukey HSD Test。Tukey HSD Test 的计算方法：
+1. Studentized Range Distribution 除了自由度参数外还需要条件个数作为参数。
+2. 仍然假设数据正态分布、均匀方差、独立抽样。零假设是各个条件的均值都相等，均值之差值为 0 。
+3. 计算各个条件的均值和方差。方差按条件个数取平均作为估计的总体方差。
+4. 两两比较的 t 值计算变为 Q 值计算，公式为 $Q=\frac{M_{i}-M_{j}}{\sqrt{\frac{MSE}{n}}}$ ，MSE 是上一步计算的总体方差的估计，n 是每个条件下数据的个数。
+5. 自由度 df=条件个数乘以n - 条件个数。
+6. 使用 Q 值、自由度df、条件个数，在 Studentized Range Distribution 中得到对应的概率，并与显著水平 $\alpha$ 比较。
 
 
 
