@@ -21,10 +21,10 @@ date: 2022-07-19
 - 从理论上讲，显著性检验存在两种错误：I，零假设虽然被拒绝但其实是正确的（Type I error）；II，零假设错误但因为没有通过显著性检验无法拒绝（Type II error）。
 - Type I error 是真的错误。
 - Type II error 不是真的错误，这种结果是差异的显著性不够造成的。
+- 在科学研究中，双尾检验比单尾检验更为常见。
 
-**正确地拒绝错误的零假设的概率称作有效度（Power），等于$1-\beta$ ，$\beta$ 是零假设错误却没能成功拒绝（Type II error）的概率。**
+**正确地拒绝错误的零假设的概率称作有效度（Power），等于$1-\beta$ ，$\beta$ 是零假设错误却没能成功拒绝（Type II error）的概率。能使有效度增大的因素：大样本量、小标准误、真实值与假设值的差距较大、高一点的 $\alpha$ 值、单尾检验。有效度 Power 的计算：已知零假设错误，在确定的显著水平下，把成功拒绝零假设时对应的临界值（假设零假设为真），代入到真实分布中（真实均值和标准误），计算出的概率即 Power。**
 
-在科学研究中，双尾检验比单尾检验更为常见。
 
 #### **学生化范围检验（Studentized Range Distribution and Tukey HSD test）**
 当需要比较多个条件相互之间的差异时，比如有 4 个实验条件就需要 6 种两两比较，比较结果中出现 I 型错误的概率会随着条件数目的增多而增大。（当条件数目为 12 时， I 型错误的概率已经达到 0.70）。为了控制  I 型错误的影响，使用 T 分布的变种分布 Studentized Range Distribution 来进行检验，这种检验叫做 Tukey Honestly Significant Difference Test 或者 Tukey HSD Test。Tukey HSD Test 的计算方法：
