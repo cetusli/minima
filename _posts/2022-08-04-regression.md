@@ -30,7 +30,7 @@ SSY、SSY' 和 SSE 分别是变量 Y,Y' 和 Y-Y' 的离均差平方和。他们�
 
 $$\sigma ^{2} _{total}= \sigma ^{2} _{Y}=\sigma ^{2} _{Y'}+\sigma ^{2} _{e}$$
 
-SSY' 是 SSY 被解释的部分，SSE 是 SSY 未解释的部分。Y 与 Y' 的 Pearson 相关系数 r 和SSY 被解释比例具有关系：
+SSY' 是 SSY 被解释的部分，SSE 是 SSY 未解释的部分。X 与 Y 的 Pearson 相关系数 r 和SSY 被解释比例具有关系：
 
 $$r^{2} =\frac{SSY'}{SSY} =\frac{\sigma _{Y'}^{2}}{\sigma _{total}^{2}} $$
 
