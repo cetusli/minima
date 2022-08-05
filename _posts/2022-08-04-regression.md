@@ -26,6 +26,10 @@ date: 2022-08-04
 - 具有方差齐性（Homoscedasticity），即数据的各处方差相同，理解为数据波动幅度稳定。
 - 预测误差（error of prediction）呈正态分布。
 
+在推断统计过程中，对样本 b 值做 t 检验，零假设是：X 与 Y 无相关性，b=0。b 值的标准差公式是:
+
+$$S_{b}=\frac{S_{e}}{\sqrt{SSX}}=\frac{\sqrt{\frac{SSE}{df}}}{\sqrt{SSX}} ,df=N-2,SSX=\Sigma (X-M_{X})^2$$
+
 
 
 #### **平方和划分**
