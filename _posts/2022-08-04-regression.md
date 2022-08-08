@@ -47,5 +47,10 @@ SSY' 是 SSY 被解释的部分，SSE 是 SSY 未解释的部分。X 与 Y 的 P
 
 $$r^{2} =\frac{SSY'}{SSY} =\frac{\sigma _{Y'}^{2}}{\sigma _{total}^{2}} $$
 
-
+#### **影响点（Influential Observations）**
+一个数据点又叫一个观测（Observation），单个观测对回归的影响可以由其 Cook's D 值表示，其正比于全部数据点的 SSY'/去掉该观察点之后的 SSY'。
+单个观测对回归的影响还可以看成由两个因子决定的函数:
+1. Leverage (h) ，基于该观测距离均值的大小。计算：数据标准化后，（观测值的平方+1）/总观测数。
+2. Distance（R,studentized residual）,基于该观测的预测误差大小。计算：数据标准化后的预测误差。
+3. 如果 h 较低，R 较高不会产生太大影响。观测的影响力由 h 和 R 的组合决定，两者绝对值都大的时候影响力最大。
 
