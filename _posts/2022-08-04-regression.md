@@ -69,7 +69,14 @@ Y 的方差和可以分为 4 部分： X(independent) ，Z(independent) ， X co
 
 $$F=\frac{\frac{SSQ_{C}-SSQ_{R}}{P_{C}-P_{R}}}{\frac{SSQ_{T}-SSQ_{C}}{N-P_{C}-1}} =\frac{MS_{explained}}{MS_{error}} $$
 
-
+含全部预测变量的回归模型叫做完整模型（complete model），去掉待检验预测变量的模型叫做减量模型（reduced model）。上面公式中:
+- $SSQ_{C}$ 是完整模型的方差和，类比上面的 SSY'。
+- $SSQ_{R}$ 是减量模型的方差和, 类比上面的 SSY'。
+- $SSQ_{T}$ 是 Criterion Variable 的方差和, 类比上面的 SSY。
+- $P_{C}$ 是完整模型的预测变量个数。
+- $P_{R}$ 是减量模型的预测变量个数。
+- N 是观测点总数。
+- F($df_{1}$,$df_{2}$) 的两个自由度分别是 $P_{C}-P_{R}$ 和 $N-P_{C}-1$。
 
 
 
