@@ -55,7 +55,7 @@ $$r^{2} =\frac{SSY'}{SSY} =\frac{\sigma _{Y'}^{2}}{\sigma _{total}^{2}} $$
 3. 如果 h 较低，R 较高不会产生太大影响。观测的影响力由 h 和 R 的组合决定，两者绝对值都大的时候影响力最大。
 
 #### **多元回归（Multiple Regression）**
-**两个 Predictor Variable** ：X、Z，一个 Criterion Variable：Y。求它们的回归方程：Y=aX+bZ，其中 a 和 b 是 X 和 Z 独立于其他预测变量与准则变量 Y 的相关系数。
+假如有两个 Predictor Variable ：X、Z，一个 Criterion Variable：Y。求它们的回归方程：Y=aX+bZ，其中 a 和 b 是 X 和 Z 独立于其他预测变量与准则变量 Y 的相关系数。
 求 a 的过程：
 1. 计算 X 和 Z 的回归方程 X'=mZ+n 。
 2. 确定新变量 (X-X')，该变量为： X 变量减去和 Z 变量相关的部分，剩下独立于 Z 变量的部分。
@@ -65,11 +65,13 @@ $$r^{2} =\frac{SSY'}{SSY} =\frac{\sigma _{Y'}^{2}}{\sigma _{total}^{2}} $$
 
 Y 的方差和可以分为 4 部分： X(independent) ，Z(independent) ， X confounded Z， Error。
 
-**多个 Predictor Variable**，
+#### **多元回归检验（Multiple Regression Testing）**
 检验部分 Predictor Variable 对 Criterion Variable 的贡献的显著性，先做假设：
 1. 残差都是正态分布，
 2. 每个预测变量都具有方差齐性，
 3. 每个预测变量和准则变量都是线性关系。
+
+
 使用 F 分布计算公式如下：
 
 $$F=\frac{\frac{SSQ_{C}-SSQ_{R}}{P_{C}-P_{R}}}{\frac{SSQ_{T}-SSQ_{C}}{N-P_{C}-1}} =\frac{MS_{explained}}{MS_{error}} $$
