@@ -65,7 +65,7 @@ $$r^{2} =\frac{SSY'}{SSY} =\frac{\sigma _{Y'}^{2}}{\sigma _{total}^{2}} $$
 
 Y 的方差和可以分为 4 部分： X(independent) ，Z(independent) ， X confounded Z， Error。
 
-使用 F 分布检验部分 Predictor Variable 对 Criterion Variable 的贡献的显著性，先做假设：:one:残差都是正态分布，:two:每个预测变量都具有方差齐性，:three:每个预测变量和准则变量都是线性关系。
+使用 F 分布检验部分 Predictor Variable 对 Criterion Variable 的贡献的显著性，先做假设：:one:残差都是正态分布，:two:每个预测变量都具有方差齐性，:three:每个预测变量和准则变量都是线性关系。计算公式如下：
 
 $$F=\frac{\frac{SSQ_{C}-SSQ_{R}}{P_{C}-P_{R}}}{\frac{SSQ_{T}-SSQ_{C}}{N-P_{C}-1}} =\frac{MS_{explained}}{MS_{error}} $$
 
