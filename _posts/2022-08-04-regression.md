@@ -60,6 +60,10 @@ $$r^{2} =\frac{SSY'}{SSY} =\frac{\sigma _{Y'}^{2}}{\sigma _{total}^{2}} $$
 1. 计算 X 和 Z 的回归方程 X'=mZ+n 。
 2. 确定新变量 (X-X')，该变量为： X 变量减去和 Z 变量相关的部分，剩下独立于 Z 变量的部分。
 3. 计算 Y 和 (X-X') 的回归方程 Y'=a(X-X')+c，得到系数 a 。
+
 用同样的方法可以得到 b。
 
-Y 的方差和可以分为 4 部分： X(independent) ，Z(independent) , X confounded Z, Error。
+Y 的方差和可以分为 4 部分： X(independent) ，Z(independent) ， X confounded Z， Error。
+
+检验部分 Predictor Variable 对 Criterion Variable 的贡献的显著性，需先假设：
+
