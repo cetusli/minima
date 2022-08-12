@@ -38,6 +38,9 @@ $$y=b_{0}+b_{1}x+b_{2}x^2+...+b_{n}x^n \Rightarrow y=b_{0}+b_{1}x^\lambda \paral
 
 #### **Box-Cox变换（Box-Cox Transformations）**
 
+$$\tilde{x}_{\lambda}=\frac{x^\lambda -1}{\lambda} $$
+
+图基变换的所有 λ 对应的图线都经过点 （0， 0），Box-Cox变换的所有 λ 对应的图线都经过点 （1， 0）。
 
 
 
