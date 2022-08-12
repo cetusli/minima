@@ -15,7 +15,7 @@ date: 2022-08-12
 
 
 #### **图基幂阶（Tukey Ladder of Powers）**
-Tukey（1977）描述了使用幂变换有序地重新表达变量，并以此找到一个显示线性关系的变换。图基变换的定义，也就是 $\tilde{x}$ 和 λ 的函数关系：
+Tukey（1977）描述了使用幂变换有序地重新表达变量，并以此找到一个显示线性关系的变换。图基变换的定义：
 
 $$\tilde{x}_{\lambda} =\begin{cases}
  x^{\lambda }  & \text{ if } \lambda >0 \\
