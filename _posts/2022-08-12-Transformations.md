@@ -25,7 +25,7 @@ $$\tilde{x}_{\lambda} =\begin{cases}
  -(x^{\lambda }) & \text{ if } \lambda <0
 \end{cases}$$
 
-对于二元数据 （x,y），其中一个变量做了某个 λ 图基变化后变成 $\tilde{x}$ 或者 $\tilde{y}$ ，我们的目的是找到使（ $\tilde{x}$ ,y）或者（x, $\tilde{y}$ ） 的相关系数 r 最大的 λ 。 做 r 与 λ 的关系图，图中 r 最大值对应的 λ 值就是我们要找的 λ 。（  0 \le |r| $\le$ 1 ，|r|=1 时，新数据的散点图是一条直线。）
+对于二元数据 （x,y），其中一个变量做了某个 λ 图基变化后变成 $\tilde{x}$ 或者 $\tilde{y}$ ，我们的目的是找到使（ $\tilde{x}$ ,y）或者（x, $\tilde{y}$ ） 的相关系数 r 最大的 λ 。 做 r 与 λ 的关系图，图中 r 最大值对应的 λ 值就是我们要找的 λ 。（0 $\le$ |r| $\le$ 1 ，|r|=1 时，新数据的散点图是一条直线。）
 
 
 
@@ -35,6 +35,9 @@ $$\tilde{x}_{\lambda} =\begin{cases}
 $$y=b_{0}+b_{1}x+b_{2}x^2+...+b_{n}x^n \Rightarrow y=b_{0}+b_{1}x^\lambda \parallel y^\lambda =b_{0}+b_{1}x$$
 
 其中 λ 是一个参数，选择一个可使 x 与 y 关系尽可能接近直线的 λ 。找到了符合的表达式，可以把 x 转换后再做数据分析，因为线性关系在分析数据和回答问题中是很特殊的。
+
+#### **Box-Cox变换（Box-Cox Transformations）**
+
 
 
 
